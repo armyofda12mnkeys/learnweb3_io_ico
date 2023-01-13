@@ -347,11 +347,20 @@ export default function Home() {
             This JSX tag's 'children' prop expects a single child of type 'ReactNode', but multiple children were provided
             ...
             but still compiles -->*/}
-            { tokensToBeClaimed.mul(10) } Tokens can be claimed!
+            { tokensToBeClaimed.mul(10).toNumber() } Tokens can be claimed!
           </div>
+          {/*<!--
           <button className={styles.button} onClick={claimCryptoDevTokens}>
             Claim Tokens
           </button>
+          -->*/}
+
+          <button
+              onClick={claimCryptoDevTokens}
+            >
+              Claim {tokensToBeClaimed.toNumber() * 10} tokens
+            </button>
+
         </div>
       );
     }

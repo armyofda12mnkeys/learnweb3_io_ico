@@ -37,5 +37,5 @@ main()
 
 /*
 arian@ninja-laptop hardhat-tutorial $ npx hardhat run scripts/deploy.ts --network goerli
-Lock with 1 ETH and unlock timestamp 1705009433 deployed to 0x57b1eB058cEc12b17458A93ce7d349111AFA354B
+Crypto Devs Token Contract Address: 0xdc645eccDE8aF9a71638fC0012c7dB17EC3cd566
 */
